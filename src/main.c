@@ -10,7 +10,7 @@ static const struct device* adc_dev = DEVICE_DT_GET(ADC_NODE);
 
 #define ADC_RESOLUTION 10
 #define ADC_CHANNEL    0
-#define ADC_PORT       SAADC_CH_PSELP_PSELP_AnalogInput1
+#define ADC_PORT       SAADC_CH_PSELP_PSELP_AnalogInput7  // number at very end is which AIN pin to use
 #define ADC_REFERENCE  ADC_REF_INTERNAL
 #define ADC_GAIN       ADC_GAIN_1_5
 
